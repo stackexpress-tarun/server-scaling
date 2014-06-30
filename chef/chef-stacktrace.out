@@ -1,0 +1,27 @@
+Generated at Mon Jun 30 18:21:38 +0000 2014
+Chef::Exceptions::Cron: cron[backup_chef] (chef-server-install::default line 16) had an error: Chef::Exceptions::Cron: Error updating state of backup_chef, exit: 1
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/provider/cron.rb:200:in `write_crontab'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/provider/cron.rb:139:in `action_create'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/resource.rb:454:in `send'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/resource.rb:454:in `run_action'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/runner.rb:49:in `run_action'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/runner.rb:85:in `converge'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/runner.rb:85:in `each'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/runner.rb:85:in `converge'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/resource_collection.rb:94:in `execute_each_resource'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/resource_collection/stepable_iterator.rb:116:in `call'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/resource_collection/stepable_iterator.rb:116:in `call_iterator_block'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/resource_collection/stepable_iterator.rb:85:in `step'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/resource_collection/stepable_iterator.rb:104:in `iterate'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/resource_collection/stepable_iterator.rb:55:in `each_with_index'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/resource_collection.rb:92:in `execute_each_resource'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/runner.rb:80:in `converge'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/client.rb:330:in `converge'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/client.rb:163:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/application/solo.rb:207:in `run_application'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/application/solo.rb:195:in `loop'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/application/solo.rb:195:in `run_application'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/../lib/chef/application.rb:70:in `run'
+/opt/vagrant_ruby/lib/ruby/gems/1.8/gems/chef-0.10.10/bin/chef-solo:25
+/opt/vagrant_ruby/bin/chef-solo:19:in `load'
+/opt/vagrant_ruby/bin/chef-solo:19
